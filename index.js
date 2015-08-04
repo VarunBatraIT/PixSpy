@@ -9,7 +9,6 @@
       this.generatedId = false;
       this.ip = this.req.headers['x-forwarded-for'] || this.req.connection.remoteAddress;
       this.id = this.req.params["id"] || this._generateId();
-      this.ip = '122.161.157.158';
       if (global.mongoose === void 0) {
         global.mongoose = require('mongoose');
         global.mongoose.connect('mongodb://localhost/' + database);
