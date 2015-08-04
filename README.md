@@ -16,15 +16,15 @@ If value is invalid, default is number of CPU
 *URLs*
 REST Based
 
-Source friendly
-http://localhost:3000/x.gif
-http://localhost:3000/create/ffff.gif
-http://localhost:3000/list/x.gif
+Source Friendly
+- http://localhost:3000/x.gif
+- http://localhost:3000/create/ffff.gif
+- http://localhost:3000/list/x.gif
 
 REST Friendly
-http://localhost:3000/x.gif POST to create new image with id X
-http://localhost:3000/x.gif GET to display image. (If doesn't exist already, it will create one)
-http://localhost:3000/list/x.gif to list history of hits.
+- POST http://localhost:3000/x.gif
+- GET http://localhost:3000/x.gif 
+- GET http://localhost:3000/list/x.gif 
 
 
 ==Future
