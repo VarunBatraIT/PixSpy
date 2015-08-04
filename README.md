@@ -8,7 +8,7 @@ PixSpy tracks open of document with time and geo location taken from IP address.
 - If image doesn't exist, creates one.
 - If id isn't present, it will generate randomly.
 
-== Usage
+## Usage
 *CORES*
 node index.js --c=1
 node index.js --c=8
@@ -27,13 +27,13 @@ REST Friendly
 - GET http://localhost:3000/list/x.gif 
 
 
-==Future
+##Future
 
 - Add same ip sleep period for N seconds.
 - Add Basic Auth for listing history.
 
 
-== Sample data for history
+## Sample data for history
 
 ```
 {  
