@@ -8,6 +8,13 @@ PixSpy tracks open of document with time and geo location taken from IP address.
 - If image doesn't exist, creates one.
 - If id isn't present, it will generate randomly.
 
+# Getting Started
+- npm install
+- copy example.config.json to config.json
+- Edit database if necessary in config.json
+- make sure mongodb is running.
+- node index.js --c=2 or simply node index.js
+
 ## Usage
 *CORES*
 node index.js --c=1
