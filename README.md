@@ -1,7 +1,7 @@
 # PixSpy
 PixSpy tracks open of document with time and geo location taken from IP address.
 
-
+- Supports multiple core for performance.
 - Tracks IP
 - Tracks Geolocation from IP
 - Keeps History
@@ -9,7 +9,11 @@ PixSpy tracks open of document with time and geo location taken from IP address.
 - If id isn't present, it will generate randomly.
 
 == Usage
-
+*CORES*
+node index.js --c=1
+node index.js --c=8
+If value is invalid, default is number of CPU 
+*URLs*
 REST Based
 
 Source friendly
