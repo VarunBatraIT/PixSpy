@@ -1,0 +1,26 @@
+{
+  "name": "pixspy",
+  "version": "1.0.0",
+  "description": "Uses 1X1px gif transparent image to log user activity. Primary coded for email read",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:codevarun/pixspy.git"
+  },
+  "keywords": [
+    "track"
+  ],
+  "author": "Varun Batra <codevarun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "emptygif": "^0.1.0",
+    "express": "^4.13.3",
+    "geoip-lite": "^1.1.6",
+    "minimist": "^1.1.2",
+    "mongoose": "^4.1.1"
+  }
+}
