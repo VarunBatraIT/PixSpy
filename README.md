@@ -17,6 +17,16 @@ PixSpy tracks open of document with time and geo location taken from IP address.
 
 ## Usage
 
+###Steps
+
+- Generate an image (optional since it will be created with first hit)
+- Place that image inside email or webpage you want to track
+
+```
+<img src="http://yourwebsite/image_id.gif" />
+```
+- Manual creation of image is there to claim ownership of image in future versions.
+
 *CORES*
 
 - node index.js --c=1
@@ -45,6 +55,7 @@ REST Friendly
 
 - Add same ip sleep period for N seconds.
 - Add Basic Auth for listing history.
+- Filter out owner of image using IP address.
 
 
 ## Sample data for history
