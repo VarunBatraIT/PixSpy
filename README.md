@@ -16,19 +16,26 @@ PixSpy tracks open of document with time and geo location taken from IP address.
 - node index.js --c=2 or simply node index.js
 
 ## Usage
+
 *CORES*
-node index.js --c=1
-node index.js --c=8
+
+- node index.js --c=1
+- node index.js --c=8
+
 If value is invalid, default is number of CPU 
+
 *URLs*
+
 REST Based
 
 Source Friendly
+
 - http://localhost:3000/x.gif
 - http://localhost:3000/create/ffff.gif
 - http://localhost:3000/list/x.gif
 
 REST Friendly
+
 - POST http://localhost:3000/x.gif
 - GET http://localhost:3000/x.gif 
 - GET http://localhost:3000/list/x.gif 
