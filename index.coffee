@@ -3,7 +3,6 @@ class PixSpy
     @generatedId = false
     @ip = @req.headers['x-forwarded-for'] || @req.connection.remoteAddress;
     @id = @req.params["id"] || @_generateId()
-    @ip = '122.161.157.158'
     if(global.mongoose == undefined )
       global.mongoose = require('mongoose')
       global.mongoose.connect('mongodb://localhost/' + database)
